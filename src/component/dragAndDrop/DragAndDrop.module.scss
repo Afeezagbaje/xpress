@@ -1,0 +1,50 @@
+.container {
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.label {
+  color: #1a1619;
+  font-weight: 500;
+  display: block;
+  font-size: 14px;
+  border-bottom: 8px;
+}
+
+
+.dragArea{
+    border: 1px dashed #ABA7AF;
+    height: 204px;
+    width: 455px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .dragArea .active{
+    border: 1px solid #ABA7AF;
+  }
+
+  .dragArea header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #4B3A5A;
+  }
+
+  .dragArea img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+
+@media screen and (max-width: 768px) {
+  .dragArea{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+  margin:  72px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+    font-weight: 400;
+    color: #606060;
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    margin: 40px 0px;
+  }
+
+  .text {
+    display: none;
+  }
+  
+}
